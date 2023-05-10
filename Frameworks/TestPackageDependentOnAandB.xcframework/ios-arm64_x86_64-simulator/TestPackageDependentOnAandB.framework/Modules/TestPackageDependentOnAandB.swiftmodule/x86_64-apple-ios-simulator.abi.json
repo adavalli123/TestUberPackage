@@ -1,0 +1,217 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "TestPackageA",
+        "printedName": "TestPackageA",
+        "declKind": "Import",
+        "moduleName": "TestPackageDependentOnAandB"
+      },
+      {
+        "kind": "Import",
+        "name": "TestPackageB",
+        "printedName": "TestPackageB",
+        "declKind": "Import",
+        "moduleName": "TestPackageDependentOnAandB"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestPackageDependentOnAandB",
+        "printedName": "TestPackageDependentOnAandB",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TestPackageDependentOnAandBAAV4textSSvp",
+            "mangledName": "$s27TestPackageDependentOnAandBAAV4textSSvp",
+            "moduleName": "TestPackageDependentOnAandB",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TestPackageDependentOnAandBAAV4textSSvg",
+                "mangledName": "$s27TestPackageDependentOnAandBAAV4textSSvg",
+                "moduleName": "TestPackageDependentOnAandB",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testPackageAText",
+            "printedName": "testPackageAText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TestPackageDependentOnAandBAAV04testB5ATextSSvp",
+            "mangledName": "$s27TestPackageDependentOnAandBAAV04testB5ATextSSvp",
+            "moduleName": "TestPackageDependentOnAandB",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TestPackageDependentOnAandBAAV04testB5ATextSSvg",
+                "mangledName": "$s27TestPackageDependentOnAandBAAV04testB5ATextSSvg",
+                "moduleName": "TestPackageDependentOnAandB",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testPackageBText",
+            "printedName": "testPackageBText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TestPackageDependentOnAandBAAV04testB5BTextSSvp",
+            "mangledName": "$s27TestPackageDependentOnAandBAAV04testB5BTextSSvp",
+            "moduleName": "TestPackageDependentOnAandB",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TestPackageDependentOnAandBAAV04testB5BTextSSvg",
+                "mangledName": "$s27TestPackageDependentOnAandBAAV04testB5BTextSSvg",
+                "moduleName": "TestPackageDependentOnAandB",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestPackageDependentOnAandB",
+                "printedName": "TestPackageDependentOnAandB.TestPackageDependentOnAandB",
+                "usr": "s:27TestPackageDependentOnAandBAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27TestPackageDependentOnAandBAAVABycfc",
+            "mangledName": "$s27TestPackageDependentOnAandBAAVABycfc",
+            "moduleName": "TestPackageDependentOnAandB",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:27TestPackageDependentOnAandBAAV",
+        "mangledName": "$s27TestPackageDependentOnAandBAAV",
+        "moduleName": "TestPackageDependentOnAandB",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sadavalli\/Documents\/TestPackageDependentOnAandB\/Sources\/TestPackageDependentOnAandB\/TestPackageDependentOnAandB.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 15,
+      "value": "\"Hello, World!\""
+    },
+    {
+      "filePath": "\/Users\/sadavalli\/Documents\/TestPackageDependentOnAandB\/Sources\/TestPackageDependentOnAandB\/TestPackageDependentOnAandB.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sadavalli\/Documents\/TestPackageDependentOnAandB\/Sources\/TestPackageDependentOnAandB\/TestPackageDependentOnAandB.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

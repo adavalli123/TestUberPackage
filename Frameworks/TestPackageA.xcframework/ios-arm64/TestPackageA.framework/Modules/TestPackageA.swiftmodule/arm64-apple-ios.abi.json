@@ -1,0 +1,99 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "TestPackageA",
+        "printedName": "TestPackageA",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TestPackageAAAV4textSSvp",
+            "mangledName": "$s12TestPackageAAAV4textSSvp",
+            "moduleName": "TestPackageA",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TestPackageAAAV4textSSvg",
+                "mangledName": "$s12TestPackageAAAV4textSSvg",
+                "moduleName": "TestPackageA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestPackageA",
+                "printedName": "TestPackageA.TestPackageA",
+                "usr": "s:12TestPackageAAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12TestPackageAAAVABycfc",
+            "mangledName": "$s12TestPackageAAAVABycfc",
+            "moduleName": "TestPackageA",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12TestPackageAAAV",
+        "mangledName": "$s12TestPackageAAAV",
+        "moduleName": "TestPackageA",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sadavalli\/Documents\/TestPackageA\/Sources\/TestPackageA\/TestPackageA.swift",
+      "kind": "StringLiteral",
+      "offset": 72,
+      "length": 30,
+      "value": "\"TestPackageA - Hello, World!\""
+    }
+  ]
+}
